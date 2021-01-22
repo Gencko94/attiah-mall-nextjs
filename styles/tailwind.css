@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .static-swiper {
+    @apply my-8;
+  }
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.error-snackbar {
+  position: fixed;
+  z-index: 50;
+  padding: 0.5em;
+  bottom: 50px;
+  text-align: center;
+  left: 50%;
+  right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  @apply bg-main-color text-main-text text-sm max-w-screen-xs md:max-w-screen-sm rounded font-semibold;
+}
+
+a:focus-visible {
+  outline: 1px solid blue;
+}
+button:focus-visible {
+  outline: 1px solid blue !important;
+}
+input:focus-visible {
+  outline: 1px solid blue !important;
+}
+button,
+select,
+input {
+  outline: none !important;
+}
+.inner_html > * span {
+  color: #252525 !important;
+  background-color: #fff !important;
+}
+.inner_html.en span {
+  font-family: 'Lato', sans-serif !important;
+}
+.inner_html.ar span {
+  font-family: 'Cairo', sans-serif !important;
+}
+.inner_html h1 {
+  font-size: 2em !important;
+
+  font-weight: bold !important;
+}
+.inner_html h2 {
+  font-size: 1.5em !important;
+
+  font-weight: bold !important;
+}
+.inner_html h3 {
+  font-size: 1.17em !important;
+
+  font-weight: bold !important;
+}
+.inner_html h4 {
+  font-size: 1em !important;
+
+  font-weight: bold !important;
+}
+.inner_html h5 {
+  font-size: 0.83em !important;
+
+  font-weight: bold !important;
+}
+.inner_html h6 {
+  font-size: 0.67em !important;
+  font-weight: bold !important;
+}

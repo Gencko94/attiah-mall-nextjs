@@ -1,0 +1,20 @@
+{
+  "accepted-payments": "Accepted Payment Methods",
+  "coupon-expired": "Coupon Expired",
+  "coupon-invalid": "Invalid Coupon",
+  "coupon-conditions-not-met": "Coupon conditions were not met",
+  "coupon-limit-reached": "Coupon Limit Reached",
+
+  "cart-enter-code-or-coupon": "Enter Coupon or Code",
+  "checkout": "Checkout",
+  "not-signed-in": "You're Not Signed in ",
+  "you-can": "You can",
+  "guest-checkout": "Checkout as guest",
+  "checkout-modal-tos": "Having an account at mrg-mall.com help us make a better user experience for you and other customers.",
+  "cart-empty": "Oops , Your Cart is Empty !",
+  "price_changed": "This Product Price has been changed since the last time you added it",
+  "check-today-deals": "Check today's Deals",
+  "update-btn": "Update",
+  "cart-combined": "Your items that you have added as a guest has been combined with your current Cart, Happy Shopping !",
+  "cart-tos": "The price and availability of items at mrg-mall.com are subject to change. The Cart is a temporary place to store a list of your items and reflects each item most recent price."
+}

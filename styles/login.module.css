@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+.loginform__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 0 auto;
+}

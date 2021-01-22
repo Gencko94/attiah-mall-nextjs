@@ -8,8 +8,43 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.1.0",
+    "autoprefixer": "^10.2.1",
+    "axios": "^0.21.1",
+    "false": "^0.0.4",
+    "framer-motion": "^3.2.1",
+    "moment": "^2.29.1",
     "next": "10.0.5",
+    "next-translate": "^1.0.1",
+    "postcss": "^8.2.4",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-autosuggest": "^10.1.0",
+    "react-content-loader": "^6.0.0",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.14.1",
+    "react-hover-observer": "^2.1.1",
+    "react-icons": "^4.1.0",
+    "react-intersection-observer": "^8.31.0",
+    "react-loader-spinner": "^3.1.14",
+    "react-paginate": "^7.0.0",
+    "react-query": "^3.5.12",
+    "react-rating": "^2.0.5",
+    "react-responsive": "^8.2.0",
+    "react-select": "^3.2.0",
+    "react-zoom-pan-pinch": "^1.6.1",
+    "swiper": "^6.4.5",
+    "tailwindcss": "^2.0.2",
+    "ua-parser-js": "^0.7.23",
+    "use-places-autocomplete": "^1.7.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.0.0"
   }
 }

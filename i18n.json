@@ -1,0 +1,10 @@
+{
+  "locales": ["en", "ar"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common"],
+    "/login": ["common", "login"],
+    "/cart": ["common", "cart"],
+    "/products/[slug]/[id]": ["common", "products"]
+  }
+}
